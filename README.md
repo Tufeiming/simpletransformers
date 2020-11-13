@@ -30,5 +30,5 @@ fork自[simpletransformers](https://github.com/ThilinaRajapakse/simpletransforme
 4. 安装simpletransformers、tensorboardX和transformers。
 
    ```bash
-   pip install simpletransformers tensorboardX transformers
+   pip install simpletransformers
    ```
