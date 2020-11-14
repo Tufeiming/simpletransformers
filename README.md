@@ -27,7 +27,7 @@ fork自[simpletransformers](https://github.com/ThilinaRajapakse/simpletransforme
    conda install pytorch cpuonly -c pytorch
    ```
 
-4. 安装simpletransformers、tensorboardX和transformers。
+4. 安装simpletransformers。
 
    ```bash
    pip install simpletransformers
