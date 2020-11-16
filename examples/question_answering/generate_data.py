@@ -35,7 +35,7 @@ def generate_example(input_text):
 
     # 预算金额
     temp_field = "budget_amount"
-    temp_list = ['预算金额', '采购金额', '招标控制价', '投资额', '总预算', '采购预算价',
+    temp_list = ['起拍价', '底价', '预算金额', '采购金额', '招标控制价', '投资额', '总预算', '采购预算价',
                  '采购资金', '最高限价', '控制价', '拦标价', '建安造价', '工程预算']
     temp_question = get_question(temp_field, temp_list, context)
     qas.append({"question": temp_question, "id": temp_field})
